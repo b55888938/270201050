@@ -1,9 +1,10 @@
-mail_adress = input("Please enter your mail adress. ")
-if mail_adress == "ceng113@example.com ":
-  print("That's true.")
-elif mail_adress == "c.e.n.g.1.1.3@example.com ":
-  print("That's true.")
-elif mail_adress == "CENG113@EXAMPLE.COM":
-  print("That's true.")
+mail = 'ceng113@example.com'
+e_mail = input('Enter your e-mail\n').lower()
+parts_of_mail = email.split('@')
+parts_of_mail[0] = parts_of_mail[0].replace('.','')
+last_mail = parts_of_mail[0]+'@'+parts_of_mail[1]
+if last_mail == e_mail:
+    print("true")
 else:
-  print("That's false")
+    print("false")
+
