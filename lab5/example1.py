@@ -1,10 +1,8 @@
-mail = 'ceng113@example.com'
-e_mail = input('Enter your e-mail\n').lower()
-parts_of_mail = email.split('@')
-parts_of_mail[0] = parts_of_mail[0].replace('.','')
-last_mail = parts_of_mail[0]+'@'+parts_of_mail[1]
-if last_mail == e_mail:
+mail = input("Enter an e-mail adress.")
+mail_2 = mail.lower()
+mail_3 = mail_2.split("@")[0]
+mail_4 = mail_3.replace(".","") + "@" + mail_2.split("@")[1]
+if mail_4 == "ceng113@example.com":
     print("true")
 else:
     print("false")
-
