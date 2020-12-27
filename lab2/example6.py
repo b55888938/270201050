@@ -9,4 +9,4 @@ if a == 0:
   if b == 0:
     print("There is no root.")
 else:
-  print("Root1 and root2 are",root_1,",",root_2        
+  print("Root1 and root2 are",root_1,",",root_2)        

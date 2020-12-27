@@ -1,4 +1,4 @@
-tudentsScores = [ ]
+studentsScores = [ ]
 averages = [ ]
 amount_of_student = int(input("How many students are there? "))
 for i in range(1,amount_of_student+1):

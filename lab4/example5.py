@@ -1,3 +1,4 @@
+
 numb_numb = int(input("How many fibonacci numbers?"))
 sum_1 = 0
 sum_2 = 1
